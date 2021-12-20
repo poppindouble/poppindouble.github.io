@@ -159,3 +159,7 @@ function draw() {
 
 	//text("fps" + frameRate(), 25, 100);
 }
+
+function windowResized() {
+   resizeCanvas(windowWidth, windowHeight);
+}
